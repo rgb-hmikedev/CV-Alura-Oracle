@@ -304,16 +304,16 @@
    <div class="contenedor-form">
     <form action="">
         <div class="fila-mitad">
-            <input type="text" placeholder="Nombre completo" class="input-mitad">
-            <input type="text" placeholder="Direccion e-mail" class="input-mitad">
+            <input type="text" placeholder="Nombre completo" class="input-mitad" title="nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+            <input type="text" placeholder="Direccion e-mail" class="input-mitad" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
         </div>
 
         <div class="fila">
-            <input type="text" placeholder="Tema..." class="input-full">
+            <input type="text" placeholder="Tema..." class="input-full" required>
         </div>
 
         <div class="fila">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full" required></textarea>
         </div>
 
         <input type="submit" value="Enviar mensaje" class="btn-enviar">
