@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Source Code Pro', monospace;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -34,7 +35,7 @@ html{
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: #940253;
+    background-color: #fff;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -44,7 +45,7 @@ html{
 
 .inicio .contenido-seccion header nav a{
     display: block;
-    
+    color: #000;
     text-decoration: none;
     margin-bottom: 10px;
     font-weight: bold;
@@ -61,14 +62,14 @@ html{
 }
 
 .inicio .contenido-seccion header .logo .color{
-    color: #940253;
+    color: #78F525;
     font-family:'Yellowtail', cursive;
 
 }
 
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
-    background-color: #940253;
+    background-color: #ffff;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -80,7 +81,7 @@ html{
 }
 
 .inicio .contenido-seccion header .nav-bar:hover{
-    box-shadow: 0 0 35px #fff;
+    box-shadow: 0 0 35px #78F525;
 }
 
 .inicio .contenido-seccion .info{
@@ -90,7 +91,7 @@ html{
 .inicio .contenido-seccion .info h1{
     font-size: 3rem;
     letter-spacing: 5px;
-    color: #fff;
+    color: #ffff;
 }
 
 .inicio .contenido-seccion .info h2{
@@ -98,7 +99,7 @@ html{
     font-size: 20px;
     margin-top: -10px;
     letter-spacing: 2px;
-    color:#fff;
+    color:#43E000;
 }
 
 .inicio .contenido-seccion .info .redes{
@@ -109,7 +110,7 @@ html{
     display: inline-block;
     text-decoration: none;
     background-color: #000;
-    color: #fff;
+    color: #78F525;
     border: 1px solid #000;
     border-radius: 50%;
     width: 40px;
@@ -120,9 +121,9 @@ html{
 }
 
 .inicio .contenido-seccion .info .redes a:hover{
-    color: #940253;
-    background-color: #fff;
-    box-shadow: 0 0 20px #940253;
+    color: #43E000;
+    background-color: #0000;
+    box-shadow: 0 0 20px #000;
 }
 
 .inicio .contenido-seccion .foto{
@@ -162,7 +163,7 @@ html{
 }
 
 .sobremi .contenido-seccion .especial{
-    color: #940253;
+    color: #43E000;
     font-weight: bold;
     margin-top: 15px;
 }
@@ -170,7 +171,7 @@ html{
 .sobremi .contenido-seccion p{
     max-width: 700px;
     margin: auto;
-    color: #666;
+    color: #000;
 }
 
 .sobremi .contenido-seccion .fila{
@@ -185,11 +186,11 @@ html{
 }
 
 .sobremi .contenido-seccion .fila .col i{
-    color: #940253;
+    color:#43E000;
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 2px solid #940253;
+    border: 2px solid #000;
     line-height: 40px;
     border-radius: 50%;
 }
@@ -204,12 +205,23 @@ html{
 .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
-    background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../Assets/pexels-picjumbocom-196658.jpg);
+    background:linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.7)), url(../Assets/pexels-picjumbocom-196658.jpg);
     background-size: cover;
    background-attachment: fixed;
     background-position: center center;
     color: #fff;
+    margin-left: -10rem;
 }
+
+.habilidades .contenido-seccion .titulo-seccion{
+    margin-left: 16rem;
+}
+
+.habilidades .contenido-seccion h3{
+    margin-left: 16rem;
+}
+
+
 
 .habilidades .contenido-seccion{
     max-width: 1000px;
@@ -235,14 +247,14 @@ html{
 
 .habilidades .contenido-seccion .barra{
     display: flex;
-    border: 1px solid #940253;
+    border: 1px solid #43E000;
     padding: 2px;
     border-radius: 3px;
     margin-right: 10px;
 }
 
 .habilidades .contenido-seccion .barra .e{
-    background-color: #363636;
+    background-color: #000;
     width: 20px;
     height: 30px;
     margin-right: 2px;
@@ -250,9 +262,10 @@ html{
 
 /*SECCION RESUMEN*/
 .resumen{
-    background-color: #e6e6e6;
+    background-color: #000;
     padding: 140px 0 100px 0;
     text-align: center;
+    color: #fff;
 }
 
 .resumen .contenido-seccion{
@@ -279,9 +292,9 @@ html{
 
 .resumen .contenido-seccion .info .col .titulo{
     display: inline-block;
-    color: #940253;
+    color: #fff;
     font-weight: bold;
-    border: 2px solid #940253;
+    border: 2px solid #43E000;
 }
 
 .resumen .contenido-seccion .info .col table{
@@ -291,7 +304,7 @@ html{
 
 .resumen .contenido-seccion .info .col table .datos{
     width: 40%;
-    border-bottom: 1px solid #bab9b9;
+    border-bottom: 1px solid #43E000;
 }
 
 .resumen .contenido-seccion .info .col table h4{
@@ -309,46 +322,132 @@ html{
 
 .resumen .contenido-seccion .info .col table .promedio{
     display: block;
-    color #940253:
+    color: #940253:
     margin-top: 10px;
     font-weight:bold
 }
 
 .resumen .contenido-seccion .info .col table .descripcion{
-    border-left: 1px solid #bab9b9;
+    border-left: 1px solid #43E000;
     padding-left: 20px;
 }
 
 /*SECCION CONTACTO*/
+#contacto{
+    padding: 100px 15px;
+}
 
-.contacto{
+#contacto .contenido-seccion{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contacto h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#contacto .contenedor-form{
+    max-width: 1100px;
+    margin: auto;
+}
+
+ #contacto .contenedor-form .fila-mitad{
+    margin-bottom: 15px;
+}
+
+#contacto .contenedor-form .fila-mitad{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto .contenedor-form input,
+#contacto .contenedor-form textarea{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid greenyellow;
+}
+
+#contacto .contenedor-form  .input-mitad{
+    width: 50rem;
+}
+
+#contacto .contenedor-form .input-full{
+    width: 100%;
+}
+
+
+
+
+/*FOOTER*/
+.footer{
     background-color: #202020;
     padding: 140px 0 100px 0;
-    color: #e6e6e6;
     text-align: center;
-
+    color:#e6e6e6
 }
 
-.contacto .contenido-seccion{
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-
-.contacto .contenido-seccion h3{
-    text-transform: uppercase;
-    font-size: 30px;
-}
-
-.contacto .contenido-seccion .fila{
+.footer .fila{
     display: flex;
     justify-content: space-around;
-}
+} 
 
-.contacto .contenido-seccion .col{
-    margin-top: 50px;
-}
 
-.contacto .contenido-seccion .col h2{
-    color: #940253;
-}
+
+
+
+/*Seccion Responsive*/
+
+@media screen and (max-width:800px){
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+
+        .habilidades .contenido-seccion .fila .col{
+            width: 100%;
+            text-align: center;
+        }
+
+        .habilidades .contenido-seccion .fila .col .cont-barra{
+            justify-content: center;
+        }
+
+        .sobremi .contenido-seccion .fila{
+            display: block;
+        }
+
+        .sobremi .contenido-seccion .col{
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+
+        }
+
+        .resumen .contenido-seccion .info{
+            display: block;
+        }
+
+        .resumen .contenido-seccion .info .col{
+            width: 90%;
+            margin: auto;
+        }
+
+        .resumen .contenido-seccion .info .col .titulo{
+            display: block;
+            text-align: center;
+        }
+
+        .resumen .contenido-seccion .info .col table{
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        .contacto .contenido-seccion .fila{
+            display: block;
+           
+        }
+
+
+    }
+    
